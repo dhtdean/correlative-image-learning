@@ -1,8 +1,6 @@
 function [sCompare] = import4DSTEM()
 
-% Quick and dirty import of 4DSTEM data - new version!
-
-
+% Import of 4DSTEM data
 
 % if nargin == 0
 % end
