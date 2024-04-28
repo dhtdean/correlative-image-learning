@@ -1,5 +1,5 @@
-function G = brhs(location, state, params)
-% @brief: set up the rhs of the poisson equation at the boundary, represent loading
+function G = frhs(location, state, params)
+% @brief: set up the rhs of the poisson equation in the bulk, represent loading
 % @params, location, struct(x,y) position
 % @params, state, struct
 % @params, params, struct with epsion, filename, stepsize and C
